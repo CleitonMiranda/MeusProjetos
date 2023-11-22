@@ -1,0 +1,21 @@
+Sequencia de comandos iniciais para o git
+
+configuração global
+
+git config --global user.name "nome do usuário"
+git config --global user.email "email@email.com"
+obs: email cadastrado no github
+
+
+git init 
+git add .
+obs: o ponto significa que vai enviar todos os arquivos 
+
+git commit -m "escrever aqui a msg do commit (obrigatório)"
+git branch -M main
+
+git remote add origin https://github.com/usuario/repositório
+obs: o endereço deve ser conforme o local do repositorio
+
+git push -u origin main
+
